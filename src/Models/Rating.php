@@ -39,7 +39,6 @@ class Rating extends Model
      *
      * @return static
      */
-    //@Todo mien
     public function createRating(Model $ratingable, $data, Model $author)      
      {     
          $rating = new static();       
