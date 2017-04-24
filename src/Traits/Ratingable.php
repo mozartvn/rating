@@ -90,7 +90,7 @@ trait Ratingable
         return $this->ratingPercent();
     }
 
-    public function getSumRatingAttribute()
+    public function setSumRatingAttribute()
     {
         return $this->sumRating();
     }
